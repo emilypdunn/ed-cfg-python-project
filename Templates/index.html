@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include "header.html" %}
+
+  {% if user %}
+    <h1>Hello {{ user }}!</h1>
+    <h2>{{ user.upper() }}</h2>
+  {% else %}
+    <h1>Hello world!</h1>
+  {% endif %}
+
+
+  <form action="/feedback" method="post">
+    <label for="name">Name: </label>
+    <input type="text" name="name" id="name">
+  
+    <label for="email">Email: </label>
+    <input type="email" name="email" id="email">
+  
+    <input type="submit" value="Send!">
+  </form>
+  </body>
+  
+  </html>
