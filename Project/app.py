@@ -37,4 +37,5 @@ def new_page():
 
   return render_template("newpage.html", form_data=data)
 
+
 app.run(debug=True)
