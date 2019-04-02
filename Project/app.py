@@ -16,7 +16,6 @@ def say_hello():
 @app.route("/<name>")
 def say_hello_to(name):
   return render_template("index.html", user=name)
-
 # automatically refreshs the page
 # saves from killing and restarting
 # app.run(debug=True)

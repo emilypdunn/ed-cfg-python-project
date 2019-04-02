@@ -2,11 +2,7 @@
 <html lang="en">
   {% include "header.html" %}
 
-  {% if user %}
-    <h1>Hello {{ user }}!</h1>
-  {% else %}
-    <h1>Hello!</h1>
-  {% endif %}
+  <h1>Hello, if you input your data below you will get a famous mathematician born in the same month as you.</h1>
 
   <form action="/newpage" method="post"> 
         <div>
