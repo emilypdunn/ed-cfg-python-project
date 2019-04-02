@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include "header.html" %}
+
+  {% if user %}
+    <h1>Hello {{ user }}!</h1>
+  {% else %}
+    <h1>Hello world!</h1>
+  {% endif %}
+
+  <form action="/feedback" method="post">
+    <label for="birthday">Birthday:</label>
+
+  <input type="date" id="birthday" name="birthday"
+       value="2018-07-22"
+       min="1940-01-01" max="2018-04-03">
+  
+    <input type="submit" value="Send!">
+  </form>
+  </body>
+  
+  </html>
+  
+  </html>
