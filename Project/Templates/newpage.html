@@ -1,0 +1,133 @@
+{% include "header.html" %}
+
+<h1>Hello {{ form_data["user_name"] }}!</h1>
+<p>
+  {{ form_data["user_name"] }}, your birthday is
+  {{ form_data["user_day"] }}
+  {{ form_data["user_month"] }}.
+</p>
+
+{% if form_data["user_month"] == "January" %}
+       <h2>Famous mathematician for January: Stephen William Hawking</h2>
+       <p> Stephen William Hawking (8 January 1942 – 14 March 2018) was an English theoretical physicist, cosmologist, and author who was director of research at the Centre for Theoretical Cosmology at the University of Cambridge at the time of his death. His most famous scientific work was on gravitational singularity theorems in the framework of general relativity and the theoretical prediction that black holes emit radiation, often called Hawking radiation. </p>
+       <a href = "jan_02">
+        <img class = "jan_02" src = "{{ url_for('static', filename = 'jan_02.jpeg')}}" class = "center" width="400" height="250">
+       </a> 
+       <a href = "jan_01">
+        <img class = "jan_01" src = "{{ url_for('static', filename = 'jan_01.jpeg')}}" class = "center" width="400" height="250">
+       </a> 
+{% endif %} 
+{% if form_data["user_month"] == "February" %}
+       <h2>Famous mathematician for February: Galileo Galilei</h2>
+       <p> Galileo Galilei (15 February 1564 – 8 January 1642) was an Italian astronomer, physicist and engineer, sometimes described as a polymath. Galileo has been called the "father of observational astronomy", the "father of modern physics", the "father of the scientific method”, and the "father of modern science". Galileo studied speed and velocity, gravity and free fall, the principle of relativity, inertia, projectile motion and worked in applied science and technology.</p>
+       <a href = "feb_02">
+        <img class = "feb_02" src = "{{ url_for('static', filename = 'feb_02.jpg')}}" class = "center"width="400" height="250">
+       </a> 
+       <a href = "feb_01">
+        <img class = "feb_01" src = "{{ url_for('static', filename = 'feb_01.jpeg')}}" class = "center"width="400" height="250">
+       </a> 
+{% endif %} 
+{% if form_data["user_month"] == "March" %}
+        <h2>Famous mathematician for March: Albert Einstein</h2>
+        <p> Albert Einstein  (14 March 1879 – 18 April 1955) was a German-born theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics (alongside quantum mechanics). Einstein is most famous for his mass-energy equivalence formula, E = mc2, which has been referred to as “the world’s most famous equation”.  </p>
+        <a href = "march_02">
+        <img class = "march_02" src = "{{ url_for('static', filename = 'march_02.jpeg')}}" class = "center"width="400" height="250">
+        </a> 
+        <a href = "march_01">
+            <img class = "march_01" src = "{{ url_for('static', filename = 'march_01.jpg')}}" class = "center">width="400" height="250"
+            </a> 
+{% endif %} 
+{% if form_data["user_month"] == "April" %}
+        <h2>Famous mathematician for April: Johann Carl Friedrich Gauss </h2>
+        <p>Johann Carl Friedrich Gauss (Latin: Carolus Fridericus Gauss), (30 April 1777 – 23 February 1855) was a German mathematician and physicist who made significant contributions to many fields in mathematics and sciences. Gauss had an exceptional influence in many fields of mathematics and science, and is ranked among history’s most influential mathematicians.  </p>
+           <a href = "april_02">
+            <img class = "april_02" src = "{{ url_for('static', filename = 'april_02.jpeg')}}" class = "center"width="400" height="250">
+           </a> 
+           <a href = "april_01">
+            <img class = "april_01" src = "{{ url_for('static', filename = 'april_01.png')}}" class = "center"width="400" height="250">
+           </a> 
+{% endif %} 
+{% if form_data["user_month"] == "May" %}
+       <h2> Famous mathematician for May:Florence Nightingale </h2>
+       <p>Florence Nightingale (12 May 1820 – 13 August 1910) was an English social reformer and statistician, and the founder of modern nursing. Florence Nightingale exhibited a gift for mathematics from an early age and became a pioneer in the visual presentation of information of information and statistical graphs such as the pie chart, which had first been developed by William Playfair in 1801.</p>
+       <a href = "may_02">
+        <img class = "may_02" src = "{{ url_for('static', filename = 'may_02.jpg')}}" class = "center">width="400" height="250"
+       </a> 
+       <a href = "may_01">
+        <img class = "may_01" src = "{{ url_for('static', filename = 'may_01.jpg')}}" class = "center"width="400" height="250">
+       </a> 
+{% endif %} 
+{% if form_data["user_month"] == "June" %}
+       <h2>Famous mathematician for June:Alan Turing </h2>
+       <p>Alan Turing (23 June 1912 – 7 June 1954) was an English mathematician, computer scientist, logician, cryptanalyst, philosopher and theoretical biologist. Turing was highly influential in development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine which is considered to before  a model of the general computer. During the Second World War, Turing worked Government Code and Cypher School (GC&CS) at Bletchley Park helping to produce Ultra Intelligence and worked in the hut responsible for German naval cryptanalysis. He devised a number of techniques for speeding the breaking of German ciphers, including improvements to the pre-war Polish bombe method, an electromechanical machine that could find settings for the Enigma machine.</p>
+       <a href = "june_02">
+        <img class = "jan_02" src = "{{ url_for('static', filename = 'june_02.webp')}}" class = "center"width="400" height="250">
+       </a> 
+       <a href = "june_01">
+        <img class = "june_01" src = "{{ url_for('static', filename = 'june_01.jpg')}}" class = "center"width="400" height="250">
+       </a> 
+{% endif %} 
+{% if form_data["user_month"] == "July" %}
+        <h2>Famous mathematician for July: Gottfried Wilhelm (von) Leibniz</h2>
+        <p>Gottfried Wilhelm (von) Leibniz (1 July 1646  – 14 November 1716) was a prominent German polymath and philosopher in the history of mathematics and the history of philosophy. His most notable accomplishment was conceiving the ideas of differential and integral calculus, independently of Isaac Newton's developments. Leibniz made major contributions to physics and technology, and anticipated notions that surfaced much later in philosophy, probability theory, biology, medicine, geology, psychology, linguistics, and computer science. </p>
+        <a href = "july_02">
+        <img class = "july_02" src = "{{ url_for('static', filename = 'july_02.png')}}"width="400" height="250">
+        </a> 
+        <a href = "july_01">
+            <img class = "july_01" src = "{{ url_for('static', filename = 'july_01.png')}}" class = "center">width="400" height="250"
+           </a> 
+{% endif %} 
+{% if form_data["user_month"] == "August" %}
+        <h2>Famous mathematician for August: Johann Bernoulli </h2>
+        <p>Johann Bernoull (also known as Jean or John; 6 August 1667 – 1 January 1748) was a Swiss mathematician and was one of the many prominent mathematicians in the Bernoulli family. He is known for his contributions to infinitesimal calculus and educating Leonhard Euler in the pupil's youth. He is most famous for: development of infinitesimal calculus, Catenary solution, Bernoulli’s rule, Bernoulli’s identity and Brachistochrone problem.</p>
+           <a href = "august_02">
+            <img class = "august_02" src = "{{ url_for('static', filename = 'august_02.jpg')}}" class = "center"width="400" height="250">
+           </a> 
+           <a href = "august_01">
+            <img class = "jan_01" src = "{{ url_for('static', filename = 'august_01.png')}}" class = "center"width="400" height="250">
+           </a> 
+{% endif %} 
+ {% if form_data["user_month"] == "September" %}
+        <h2>Famous mathematician for September: Adrien-Marie Legendre</h2>
+        <p> Adrien-Marie Legendre (8 September 1752 – 10 January 1833) was a French mathematician who made numerous contributions to mathematics. Well-known and important concepts such as the Legendre polynomials and Legendre transformation are named after him. Legendre is best known as the author of Éléments de géométrie, which was published in 1794 and was the leading elementary text on the topic for around 100 years. This text greatly rearranged and simplified many of the propositions from Euclid's Elements to create a more effective textbook.</p>
+           <a href = "sept_02">
+            <img class = "sept_02" src = "{{ url_for('static', filename = 'sept_02.jpeg')}}" class = "center"width="400" height="250">
+           </a> 
+           <a href = "sept_01">
+            <img class = "sept_01" src = "{{ url_for('static', filename = 'sept_01.png')}}" class = "center"width="400" height="250">
+           </a> 
+{% endif %}
+{% if form_data["user_month"] == "October" %}
+        <h2>Famous mathematician for October: Pierre de Fermat</h2>
+        <p> Pierre de Fermat (between 31 October and 6 December 1607 – 12 January 1665) was a French lawyer at the Parliament  of Toulouse, France, and a mathematician who is given credit for early developments that led to infinitesimal calculus. He is recognized for his contributions to number theory, analytic geometry and probability theory. He is best known for his Fermat's principle for light propagation and his Fermat's Last Theorem in number theory.</p>
+           <a href = "oct_02">
+            <img class = "oct_02" src = "{{ url_for('static', filename = 'oct_02.png')}}" class = "center"width="400" height="250">
+           </a> 
+           <a href = "oct_01">
+            <img class = "oct_01" src = "{{ url_for('static', filename = 'oct_01.png')}}" class = "center"width="400" height="250">
+           </a> 
+{% endif %} 
+{% if form_data["user_month"] == "November" %}
+        <h2>Famous mathematician for November: George Boole</h2>
+         George Boole (2 November 1815 – 8 December 1864) was a largely self-taught English mathematician, philosopher and logician. He worked in the field of differential equations and algebraic logic, and is best known as the author of ‘The laws of Thought’ (1854) which contains Boolean algebra. </p>
+           <a href = "nov_02">
+            <img class = "nov_02" src = "{{ url_for('static', filename = 'nov_02.jpg')}}" class = "center"width="400" height="250">
+           </a> 
+           <a href = "nov_01">
+            <img class = "nov_01" src = "{{ url_for('static', filename = 'nov_01.png')}}" class = "center"width="400" height="250">
+           </a> 
+{% endif %} 
+{% if form_data["user_month"] == "December" %}
+        <h2>Famous mathematician for December: John von Neumann </h2>
+        <p>John von Neumann (December 28, 1903 – February 8, 1957) was a Hungarian-America mathematician, physicist, computer scientist, and polymath. He was regarded by many as the foremost mathematician of his time and referred to as a genius since he was comfortable working with both pure and applied sciences alongside each other.</p>
+           <a href = "dec_02">
+            <img class = "dec_02" src = "{{ url_for('static', filename = 'dec_02.jpeg')}}" class = "center"width="400" height="250">
+           </a> 
+           <a href = "dec_01">
+            <img class = "dec_01" src = "{{ url_for('static', filename = 'dec_01.jpg')}}" class = "center">width="400" height="250"
+           </a> 
+{% endif %} 
+
+
+</body>
+</html>

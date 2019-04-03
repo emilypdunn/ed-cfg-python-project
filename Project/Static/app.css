@@ -53,7 +53,7 @@ h3
 img {
     border-width:4px;  
     border-style:ridge;
-    color:#000000;
+	color:#000000;
 }
 
 ul.links 
@@ -86,3 +86,14 @@ nav li a {
 	border-color: #000000;
 	padding: 20px 30px
 }
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
+
+img { 
+	max-width: 100%;
+	}
