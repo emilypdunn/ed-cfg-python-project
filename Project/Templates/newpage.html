@@ -3,16 +3,56 @@
 <h1>Hello {{ form_data["user_name"] }}!</h1>
 <p>
   {{ form_data["user_name"] }}, your birthday is
-  {{ form_data["user_day"] }} in
+  {{ form_data["user_day"] }}
   {{ form_data["user_month"] }}.
 </p>
 
 {% if form_data["user_month"] == "January" %}
-        <p>Famous January </p>
+        <p>Famous mathematician for January: </p>
   {% endif %} 
 
   {% if form_data["user_month"] == "February" %}
-        <p>Famous February </p>
+        <p>Famous mathematician for February: </p>
+  {% endif %} 
+
+  {% if form_data["user_month"] == "March" %}
+        <p>Famous mathematician for March: </p>
+  {% endif %} 
+
+  {% if form_data["user_month"] == "April" %}
+        <p>Famous mathematician for April: </p>
+  {% endif %} 
+
+  {% if form_data["user_month"] == "May" %}
+        <p>Famous mathematician for May: </p>
+  {% endif %} 
+
+  {% if form_data["user_month"] == "June" %}
+        <p>Famous mathematician for June: </p>
+  {% endif %} 
+
+  {% if form_data["user_month"] == "July" %}
+        <p>Famous mathematician for July: </p>
+  {% endif %} 
+
+  {% if form_data["user_month"] == "August" %}
+        <p>Famous mathematician for August: </p>
+  {% endif %} 
+
+  {% if form_data["user_month"] == "September" %}
+        <p>Famous mathematician for August: </p>
+  {% endif %} 
+
+  {% if form_data["user_month"] == "October" %}
+        <p>Famous mathematician for October: </p>
+  {% endif %} 
+
+  % if form_data["user_month"] == "November" %}
+        <p>Famous mathematician for November: </p>
+  {% endif %} 
+
+  % if form_data["user_month"] == "December" %}
+        <p>Famous mathematician for December: </p>
   {% endif %} 
 
 
