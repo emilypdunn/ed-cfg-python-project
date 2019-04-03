@@ -2,6 +2,8 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
+app = Flask(static_folder='Static')
+
 #@app.route("/")
 # decorator - turns from normal
 #python to function responding to

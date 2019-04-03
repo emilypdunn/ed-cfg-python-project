@@ -23,3 +23,7 @@ nav ul li {
   display: inline;
   margin-right: 20px;
 }
+
+img { 
+  display: inline-block;
+}
