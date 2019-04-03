@@ -23,8 +23,7 @@ p
 }
 
 h1 {
-  font-family: Arial, sans-serif;
-  text-align:center;
+  	text-align:center;
 	background-color: #708090;
 	border: 1.5px groove;
 	border-color: #000000;
@@ -33,17 +32,17 @@ h1 {
 }
 
 h2 {
-  text-align:center;
+ 	text-align:center;
 	background-color: #708090;
 	border: 1.5px groove;
 	border-color: #000000;
 	margin-left: 20%;
-  margin-right: 20%;
+ 	margin-right: 20%;
 }
 
 h3
 {
-text-align:center;
+	text-align:center;
 	background-color: #708090;
 	border: 1.5px groove;
 	border-color: #000000;
@@ -66,13 +65,12 @@ ul.links li
 {
 	padding:0;
 }
-
 nav ul {
-  list-style: none;
-  font-family: Arial, sans-serif;
-  font-size: 20px;
-  text-align: center;
-  margin: 0;
+  	list-style: none;
+	font-family: Arial, sans-serif;
+  	font-size: 20px;
+ 	text-align: center;
+  	margin: 0;
 	padding: 0;
 	overflow: hidden;
 	background-color: #273746
