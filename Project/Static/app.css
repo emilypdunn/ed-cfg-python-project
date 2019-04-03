@@ -93,8 +93,4 @@ nav li a {
 	border: 1.5px groove;
 	border-color: #000000;
 	padding: 20px 30px
-
-nav ul li {
-  display: inline;
-  margin-right: 20px;
 }
